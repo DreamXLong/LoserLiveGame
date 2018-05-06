@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/set"
+        android:drawablePadding="6dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical" />
+
+    <RadioGroup
+        android:id="@+id/ab_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/ab_placeone"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_click_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="中关村"
+            android:textColor="@color/selector_btn_click_text_color" />
+
+        <RadioButton
+            android:id="@+id/ab_placetwo"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_click_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="回龙观"
+            android:textColor="@color/selector_btn_click_text_color" />
+
+        <RadioButton
+            android:id="@+id/ab_placethree"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_click_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="动物园"
+            android:textColor="@color/selector_btn_click_text_color" />
+
+        <RadioButton
+            android:id="@+id/ab_placefour"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_click_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="潘家园"
+            android:textColor="@color/selector_btn_click_text_color" />
+
+        <RadioButton
+            android:id="@+id/ab_placefive"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_click_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="三里屯"
+            android:textColor="@color/selector_btn_click_text_color" />
+    </RadioGroup>
+
+</android.support.v7.widget.Toolbar>

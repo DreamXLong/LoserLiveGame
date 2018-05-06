@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ab_money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orderInCategory="6"
+        android:title="余恶宝"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ab_hospital"
+        android:orderInCategory="7"
+        android:title="医院"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ab_room"
+        android:orderInCategory="8"
+        android:title="房屋中介"
+        app:showAsAction="never" />
+</menu>

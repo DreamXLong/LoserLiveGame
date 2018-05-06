@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_yuanjiao_white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/beatdialog_money_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/beatdialog_money_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/selectordialog_btn_click_bg"
+            android:button="@null"
+            android:clickable="false"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="16dp"
+            android:text="大事件"
+            android:textColor="@color/selector_btn_click_text_color" />
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/beatdialogcenter_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beatdialog_money_rg">
+
+        <TextView
+            android:id="@+id/beatdialog_deal_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/beatdialog_deal_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/beatdialogcenter_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangle_yuanjiao_dialog_button_gray"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="艹，尼玛！"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+</RelativeLayout>

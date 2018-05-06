@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">屌丝浮生记</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="start_game">开始游戏</string>
+    <string name="prize">兑奖</string>
+    <string name="deal"><![CDATA[<交易>]]></string>
+</resources>

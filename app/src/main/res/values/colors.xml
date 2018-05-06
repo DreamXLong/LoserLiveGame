@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--常用颜色-->
+    <color name="lasttitlecolor">#525bde</color>
+    <color name="grapefruit">#fc5656</color>
+    <color name="progressGreen">#cfff2b</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="colornormal">#525bde</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="tealishGreen">#0bd986</color>
+    <color name="tealishGreen80">#cc0bd986</color>
+    <color name="tealishGreenTwo">#0ad986</color>
+    <color name="danGreen">#990bd986</color>
+    <color name="paleGrey">#edeefa</color>
+    <color name="coolGrey">#abaebb</color>
+    <color name="dodgerBlue">#427af9</color>
+    <color name="warmBlue">#525bde</color>
+    <color name="greenYellow97">#ceff26</color>
+    <color name="perrywinkle">#787edd</color>
+    <color name="salmon">#fd7878</color>
+    <color name="darkTwo">#251f44</color>
+    <color name="cornflowerTwo">#5b66f7</color>
+    <color name="darkGrey80">#262728</color>
+    <!--透明颜色-->
+    <color name="white60">#99ffffff</color>
+    <color name="white59">#96ffffff</color>
+    <color name="white10">#1Affffff</color>
+    <color name="white90">#e6ffffff</color>
+    <color name="white01">#03ffffff</color>
+    <color name="white40">#66ffffff</color>
+    <color name="black8">#14000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black10">#1a000000</color>
+    <color name="white80">#ccffffff</color>
+    <color name="whiteTwo">#fafafa</color>
+    <color name="black5">#0d000000</color>
+    <color name="tealishGreen50">#800bd986</color>
+    <!--我的界面线颜色-->
+    <color name="myfragment_line">#727be1</color>
+    <color name="myfragment_target">#c7c5f2</color>
+    <color name="myfragment_circle">#9597db</color>
+    <!--设置界面线颜色-->
+    <color name="setfragment_back">#edeefa</color>
+    <color name="set_text">#49515c</color>
+    <color name="blackBody">#3D3D3D</color>
+    <color name="find_title">#646cde</color>
+    <!--账号管理界面-->
+    <color name="accountactivity_binding">#6649515c</color>
+    <!--文字颜色-->
+    <color name="gunmetal">#49515c</color>
+    <color name="gunmetal20">#3349515c</color>
+    <color name="gunmetal40">#6649515c</color>
+    <color name="gunmetal60">#9949515c</color>
+    <color name="gunmetal59">#9649515c</color>
+
+    <!-- 浅黑色-->
+    <color name="text_black_nomal">#6649515c</color>
+    <!-- 短线颜色-->
+    <color name="short_line">#d8d8d8</color>
+</resources>

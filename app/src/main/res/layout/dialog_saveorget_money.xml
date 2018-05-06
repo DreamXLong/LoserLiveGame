@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_yuanjiao_white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/dialog_money_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/dialog_money_savemoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/selectordialog_btn_click_bg"
+            android:button="@null"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="16dp"
+            android:text="存款"
+            android:textColor="@color/selector_btn_click_text_color"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/dialog_money_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/selectordialog_btn_click_bg"
+            android:button="@null"
+            android:clickable="false"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="16dp"
+            android:text="存款"
+            android:textColor="@color/selector_btn_click_text_color" />
+
+        <RadioButton
+            android:id="@+id/dialog_money_getmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/selectordialog_btn_click_bg"
+            android:button="@null"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="16dp"
+            android:text="取款"
+            android:textColor="@color/selector_btn_click_text_color"
+            android:visibility="visible" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_money_rg">
+
+        <TextView
+            android:id="@+id/dialog_deal_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/gunmetal" />
+
+        <LinearLayout
+            android:id="@+id/dialog_money_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/dialog_money_introduceBegin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/dialog_money_inputmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_blue"
+                android:hint="      "
+                android:inputType="number"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:id="@+id/dialog_money_introduceEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/dialog_deal_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/center_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangle_yuanjiao_dialog_button_gray"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="好的！"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/dialog_yesorno_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_money_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_yuanjiao_dialog_button_blue"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="是的"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/dialog_money_no"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_yuanjiao_dialog_button_gray"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="算了"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>
